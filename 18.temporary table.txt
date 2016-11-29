@@ -1,0 +1,1 @@
+SELECT i.seller_id,c.id,i.name FROM customers AS c, items AS i WHERE i.seller_id=c.id;

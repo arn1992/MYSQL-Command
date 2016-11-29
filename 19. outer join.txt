@@ -1,0 +1,12 @@
+SELECT customers.name, items.name FROM customers,items WHERE items.seller_id=customers.id;
+
+
+
+left outer join:
+
+SELECT customers.name AS customers_name, items.name AS items_name FROM customers LEFT Outer JOIN items ON customers.id=items.seller_id;
+
+
+right outer join:
+
+SELECT customers.name As customers_name,customers.id As customers_id,items.name AS items_name FROM customers RIGHT OUTER JOIN items ON customers.id=items.seller_id;

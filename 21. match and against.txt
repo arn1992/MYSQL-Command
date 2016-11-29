@@ -1,0 +1,9 @@
+SELECT name,cost FROM items WHERE MATCH(name) against ('baby' IN boolean MODE);
+
+must include:
+
+SELECT name,cost FROM items WHERE MATCH(name) against('+baby'IN BOOLEAN MODE);
+
+include baby and exclude coat:
+
+SELECT name,cost FROM items WHERE MATCH(name) against('+baby -coat'IN BOOLEAN MODE); 

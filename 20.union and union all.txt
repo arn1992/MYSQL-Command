@@ -1,0 +1,5 @@
+union:
+SELECT seller_id,name,cost,bids FROM items WHERE bids>190 UNION  SELECT seller_id,name,cost,bids FROM items where cost>1000;
+
+union all :
+SELECT seller_id,name,cost,bids FROM items WHERE bids>190 UNION ALL SELECT seller_id,name,cost,bids FROM items where cost>1000;

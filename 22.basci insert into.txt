@@ -1,0 +1,7 @@
+INSERT INTO items VALUES("101","bacon","9.95","1","0");
+
+perfect command:
+
+INSERT INTO items (id,name,cost,seller_id,bids) VALUES ("102",'fish and chips','3.65','1','12');
+
+INSERT INTO items (name,seller_id,cost) VALUES ("nuggets","1","4.5");

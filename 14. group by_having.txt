@@ -1,0 +1,16 @@
+
+
+SELECT seller_id,COUNT(*) FROM items WHERE seller_id=1;
+
+
+group by:
+
+SELECT seller_id,COUNT(*)AS count_item FROM items GROUP BY seller_id;
+
+having:
+
+SELECT seller_id,COUNT(*)AS count_item FROM items GROUP BY seller_id HAVING COUNT(*)>=3 ;
+
+having order by desc:
+
+SELECT seller_id,COUNT(*)AS count_item FROM items GROUP BY seller_id HAVING count_item>=3 ORDER BY count_item DESC;

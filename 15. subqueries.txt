@@ -1,0 +1,1 @@
+SELECT name,id,cost FROM items WHERE cost>=(SELECT avg(cost) FROM items) ORDER BY cost desc;

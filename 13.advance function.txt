@@ -1,0 +1,16 @@
+more about function:
+
+
+SELECT COUNT(name) from items WHERE seller_id=6;
+
+SELECT AVG(cost)as avg_cost FROM items WHERE seller_id=6;
+
+
+advanced: 
+
+SELECT COUNT(name) AS item_count, AVG(cost) AS avg_cost, max(cost) AS max_cost FROM items WHERE seller_id=12;
+
+
+or,
+
+SELECT COUNT(*) AS item_count, AVG(cost) AS avg_cost, max(cost) AS max_cost, MIN(cost) AS min_cost FROM items WHERE seller_id=12;

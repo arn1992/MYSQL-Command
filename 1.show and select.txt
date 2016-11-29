@@ -1,0 +1,12 @@
+Show and select:
+SELECT address FROM customers;
+
+SELECT name,id, address FROM customers;
+
+
+SELECT id, name FROM customers;
+SELECT id, address FROM customers;
+
+
+
+

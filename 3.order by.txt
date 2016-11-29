@@ -1,0 +1,16 @@
+SELECT name, id FROM customers ORDER BY name;
+or,
+SELECT customers.name, id FROM customers ORDER BY customers.name;
+
+
+order by id:
+SELECT customers.name,state FROM customers ORDER BY customers.id;
+
+multiple oorder:
+
+
+SELECT id,name,state,zip FROM customers ORDER BY state,id;
+with limit:
+
+
+SELECT id,name,state,zip FROM customers ORDER BY state,id LIMIT 5,20;

@@ -1,0 +1,3 @@
+for only one items:
+
+SELECT id,name FROM items WHERE name LIKE ('_ boxes of frogs');

@@ -1,0 +1,16 @@
+concat two colums:
+
+
+SELECT CONCAT(city,", ",state) FROM customers;
+
+specific name:
+
+SELECT concat(city,", ",state) AS new_address FROM customers;
+
+math exp:
+
+SELECT name,id,cost,cost-4 AS xmas_selloff FROM items;
+
+SELECT name,id,cost,cost*2.4 AS xmas_selloff FROM items;
+
+SELECT name,id,cost,cost/2.4 AS xmas_selloff FROM items;

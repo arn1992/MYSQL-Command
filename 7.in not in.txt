@@ -1,0 +1,13 @@
+insted of bunch of or's we use IN:
+SELECT name, id, state FROM customers WHERE state IN ("ca","nc","ny");
+
+SELECT name, id, zip, state FROM customers WHERE id IN (2,5,6,90,45,78,25,10,63);
+
+order by:
+
+SELECT name, id, zip, state FROM customers WHERE id IN (2,5,6,90,45,78,25,10,63) ORDER BY state;
+
+
+not in:
+
+SELECT id,name,state,city FROM customers WHERE id NOT In (1,8,10,9,4,6,14) ORDER BY id LIMIT 30;

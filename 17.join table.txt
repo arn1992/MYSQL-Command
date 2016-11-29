@@ -1,0 +1,1 @@
+SELECT customers.name,customers.id,items.name AS item_name, items.cost FROM customers,items WHERE customers.id=items.seller_id ORDER BY customers.id;

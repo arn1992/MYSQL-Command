@@ -1,0 +1,7 @@
+desc:
+SELECT city,id, name, zip FROM customers ORDER BY zip DESC;
+
+SELECT city,id, name, zip FROM customers ORDER BY zip DESC LIMIT 10,30;
+
+
+SELECT city,id, name, zip FROM customers ORDER BY zip DESC LIMIT 1;

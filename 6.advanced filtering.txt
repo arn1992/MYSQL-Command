@@ -1,0 +1,12 @@
+and:
+
+SELECT name,id,city FROM customers WHERE state="ca" AND city="hollywood";
+
+
+or:
+
+SELECT name,id,city,state FROM customers WHERE state="ca" OR city="hollywood";
+
+mixture:
+
+SELECT id,name,state,city FROM customers WHERE (id=1 OR id=2) AND city="raleigh";

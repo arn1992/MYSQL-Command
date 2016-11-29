@@ -1,0 +1,12 @@
+
+like:
+SELECT name, id, cost FROM items WHERE name LIKE "new%";
+
+SELECT name,id,city FROM customers WHERE city LIKE "h%d";
+
+SELECT name,id,cost FROM items WHERE name LIKE ("%m");
+
+SELECT name,id,cost FROM items WHERE name LIKE ("%bedroom");
+
+
+SELECT name,id FROM customers WHERE id LIKE ("1%" ) AND ("2%");

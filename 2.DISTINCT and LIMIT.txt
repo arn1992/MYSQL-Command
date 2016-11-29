@@ -1,0 +1,10 @@
+SELECT DISTINCT name FROM customers;
+
+SELECT DISTINCT name,city FROM customers;
+
+
+limit:
+
+SELECT name,id,city FROM customers LIMIT 20;
+
+SELECT name,id,city FROM customers LIMIT 10,25;

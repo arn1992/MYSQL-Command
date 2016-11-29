@@ -1,0 +1,11 @@
+
+suquery:
+SELECT name,MIN(cost) FROM items WHERE name LIKE "% boxes of frogs" AND seller_id IN (68,6,18);
+
+or,
+
+SELECT name,MIN(cost) FROM items WHERE name LIKE "% boxes of frogs";
+
+or,
+
+SELECT name,MIN(cost) FROM items WHERE name LIKE "% boxes of frogs" AND seller_id IN (SELECT seller_id FROM items WHERE name LIKE"% boxes of frogs");

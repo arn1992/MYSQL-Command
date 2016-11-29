@@ -1,0 +1,24 @@
+SELECT id, name FROM customers WHERE id=90;
+
+SELECT id, name, zip FROM customers WHERE name="bucky roberts";
+
+not equal:
+
+SELECT id, name, zip FROM customers WHERE id !=5;
+
+less then:
+
+SELECT id, name, zip FROM customers WHERE id < 6;
+less equal:
+
+SELECT id, name, zip FROM customers WHERE id <=6 ;
+greater than:
+
+SELECT id, name, zip FROM customers WHERE id > 6;
+
+limit:
+SELECT id, name, zip FROM customers WHERE id > 6 LIMIT 10;
+
+between:
+
+SELECT id, name, zip FROM customers WHERE id BETWEEN 25 AND 35;

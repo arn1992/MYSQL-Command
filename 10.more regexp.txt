@@ -1,0 +1,20 @@
+regexp:
+SELECT name,id from items WHERE name REGEXP ('new');
+
+. regexp:
+
+SELECT name,id FROM items WHERE name REGEXP (".boxes");
+
+| regexp:
+
+SELECT id, name FROM items WHERE name REGEXP ("gold|car");
+
+set regexp:
+
+SELECT name,id FROM items WHERE name REGEXP ("[12345] boxes of frogs");
+
+SELECT name,id FROM items WHERE name REGEXP ("[1-5] boxes of frogs");
+neget regexp:
+
+SELECT name,id FROM items WHERE name REGEXP ("[^12345] boxes of frogs");
+

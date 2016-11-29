@@ -1,0 +1,17 @@
+upper functions:
+
+SELECT name,id,State,upper(name) FROM customers;
+
+sqrt:
+
+SELECT name,id,cost,sqrt(cost) FROM items;
+
+avg:
+
+SELECT avg(cost) FROM items;
+sum:
+SELECT SUM(bids) FROM items;
+
+mixture sum and avg.:
+
+SELECT avg(cost)AS avg_cost,SUM(bids)AS bids_sum FROM items;

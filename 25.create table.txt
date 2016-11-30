@@ -1,0 +1,5 @@
+CREATE TABLE users ( id int,
+                    username varchar(30),
+                    password varchar(20),
+                    PRIMARY key (id)
+                    );

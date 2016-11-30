@@ -1,0 +1,24 @@
+basic view:
+SELECT id,name,bids FROM items ORDER BY bids desc limit 10;
+
+
+advanced view:
+
+
+CREATE VIEW mostbids AS
+SELECT id,name,bids FROM items ORDER BY bids desc limit 10;
+
+
+concat:
+
+SELECT concat(city, ',',state)AS address FROM customers; 
+
+
+conacat + view:
+
+CREATE VIEW sampleview as
+SELECT concat(city,',',state) as address FROM customers;
+
+search from view:
+
+SELECT name,bids from mostbids;

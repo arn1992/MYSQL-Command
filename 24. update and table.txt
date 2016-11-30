@@ -1,0 +1,13 @@
+UPDATE items SET name="pudding" WHERE id=106;
+
+UPDATE items SET cost=3.65 WHERE id=105;
+
+
+more than one row:
+
+UPDATE items SET name="no order", bids=102 WHERE id=102; 
+
+
+delete:
+
+DELETE FROM items WHERE id=101;

@@ -1,0 +1,11 @@
+INSERT INTO items(id,name,cost,seller_id,bids) VALUES 
+('106','bamboo','1.66','1','80'),
+('107','bamboo rice','2.66','1','82'),
+('108','bamboo chicken','8.66','1','85');
+
+
+
+
+insert into another tables:
+
+INSERT INTO items(id,name,cost,seller_id,bids) SELECT id,name,cost,seller_id,bids FROM 2ndtable;

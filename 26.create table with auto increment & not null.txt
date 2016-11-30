@@ -1,0 +1,7 @@
+CREATE TABLE people (
+id int NOT null AUTO_INCREMENT,
+    username varchar(30) NOT null,
+    password varchar(20) NOT null,
+    PRIMARY KEY(id)
+    
+);

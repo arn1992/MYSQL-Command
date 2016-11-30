@@ -1,0 +1,15 @@
+alter add:
+
+ALTER TABLE people ADD sample varchar(30) not null;
+
+drop:
+
+ALTER TABLE people DROP sample;
+
+drop whole table:
+
+DROP TABLE users;
+
+rename table:
+
+RENAME TABLE people TO users;
